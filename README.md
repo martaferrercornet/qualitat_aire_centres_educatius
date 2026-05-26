@@ -70,7 +70,7 @@ qualitat_aire_centres_educatius/
 ### Passos
 
 
-# 1. Instal·la dependències
+#### 1. Instal·la dependències
 ```r
 install.packages(c(
   "shiny",
@@ -91,18 +91,10 @@ install.packages(c(
 ```
 
 
-# 2. Executa l'aplicació
+##### 2. Executa l'aplicació
 ```r
 shiny::runApp()
 ```
-
-## Guia d'ús
-
-- Obre l'aplicació:  
-  https://martafeco.shinyapps.io/qualitat_aire_shiny  
-- Utilitza el panell lateral per filtrar per municipi, contaminant o tipus de centre  
-- Explora el mapa per veure la distribució geogràfica dels nivells de contaminació  
-- Navega per les diferents pestanyes per veure els indicadors i les visualitzacions que responen a les preguntes que es plantegen
 
 ---
 
