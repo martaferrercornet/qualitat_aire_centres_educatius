@@ -69,8 +69,9 @@ qualitat_aire_centres_educatius/
 
 ### Passos
 
-```r
+
 # 1. Instal·la dependències
+```r
 install.packages(c(
   "shiny",
   "shinydashboard",
@@ -87,9 +88,13 @@ install.packages(c(
   "htmlwidgets",
   "htmltools"
 ))
+```
+
 
 # 2. Executa l'aplicació
+```r
 shiny::runApp()
+```
 
 ## Guia d'ús
 
