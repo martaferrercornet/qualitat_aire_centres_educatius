@@ -43,9 +43,7 @@ qualitat_aire_centres_educatius/
 
 │
 
-├── R/
-
-│ ├── app.R # Codi de l'aplicació
+├── app.R # Codi de l'aplicació
 
 ├── data/ # Datasets del projecte
 
@@ -55,7 +53,7 @@ qualitat_aire_centres_educatius/
 
 ├── README.md
 
-└── LICENSE
+└── LICENSE.md
 
 
 ---
