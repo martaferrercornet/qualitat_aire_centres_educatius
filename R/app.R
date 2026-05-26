@@ -4,7 +4,6 @@
 rm(list = ls())
 gc()
 
-setwd("C:/Users/marta/Documents/Màster en Ciència de Dades UOC/Semestre 2/Visualització de dades/PRÀCTICA/data/")
 
 suppressPackageStartupMessages({
   library(shiny)
@@ -118,8 +117,8 @@ comarca_prov_map = c(
 # ============================================================
 message("Carregant dades...")
 
-quali_aire_raw = read.csv("Qualitat_de_l’aire_als_punts_de_mesurament_automàtics_de_la_Xarxa_de_Vigilància_i_Previsió_de_la_Contaminació_Atmosfèrica_20260525.csv", stringsAsFactors = FALSE)
-equip_raw = read.csv("Equipaments_de_Catalunya_20260525.csv", stringsAsFactors = FALSE)
+quali_aire_raw = read.csv("data/Qualitat_de_l’aire_als_punts_de_mesurament_automàtics_de_la_Xarxa_de_Vigilància_i_Previsió_de_la_Contaminació_Atmosfèrica_20260525.csv", stringsAsFactors = FALSE)
+equip_raw = read.csv("data/Equipaments_de_Catalunya_20260525.csv", stringsAsFactors = FALSE)
 
 # ============================================================
 # PREPROCESSAMENT DE LES DADES
